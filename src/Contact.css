@@ -1,0 +1,130 @@
+.contact-container {
+    background-color: black;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 125vh;
+    /* margin-bottom: 5vh; */
+}
+
+.heading3 {
+    color: white;
+    /* font-weight: 600; */
+    text-align: center;
+    /* margin-top: 8vh; */
+    padding-top: 8vh;
+    font-size: 2.5rem;
+    font-family: 'Poppins';
+    
+}
+#red4{
+    color: red;
+}
+.container3 {
+    width: 400px;
+    margin: 7.5vh auto 0 auto;
+    background-color: rgb(58, 56, 58);
+    border-radius: 5px;
+    padding: 30px;
+}
+.input-group label{
+    color: white;
+    font-family: 'Poppins';
+}
+.container3 h1 {
+    text-align: center;
+    color: rgb(201, 9, 9);
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-bottom: 2vh;
+}
+
+button {
+    background-color: rgb(60, 99, 141);
+    color: white;
+    padding: 10px;
+    border: 1px solid rgb(60, 99, 141);
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34,193,195);
+}
+
+#desc {
+    height: 50px;
+}
+
+.input-group input:focus {
+    outline: 0;
+}
+
+.error {
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.input-group.success input {
+    border-color: rgb(36, 196, 36);
+}
+
+.input-group.error input {
+    border-color: rgb(213, 64, 64);
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        width: 300px;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        width: 250px;
+    }
+    .heading {
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .container {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .container {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    .container {
+        width: 140px;
+    }
+}

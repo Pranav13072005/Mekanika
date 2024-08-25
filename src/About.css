@@ -159,7 +159,7 @@
     right: 1rem;
   }
   
-  input {
+  .carousel-container input {
     appearance: none;
     -ms-appearance: none;
     -webkit-appearance: none;
@@ -178,11 +178,11 @@
     z-index: 1;
   }
   
-  input:focus {
+  .carousel-container input:focus {
     outline: none;
   }
   
-  input:after {
+  .carousel-container input:after {
     content: attr(title);
     position: absolute;
     top: 1rem;
@@ -194,7 +194,7 @@
     border-radius: 5px;
   }
   
-  input:not(:checked):before {
+  .carousel-container input:not(:checked):before {
     content: '';
     position: absolute;
     width: 2rem;
@@ -204,23 +204,23 @@
     left: calc(-100% + 1rem);
   }
   
-  input:checked:before {
+  .carousel-container input:checked:before {
     display: none;
     left: 1rem;
   }
   
-  input:checked {
+  .carousel-container input:checked {
     transform: translateX(0);
     pointer-events: none;
     z-index: 0;
     box-shadow: -5px 10px 20px -15px rgba(0,0,0,1);
   }
   
-  input:checked + input:before {
+  .carousel-container input:checked + input:before {
     left: -3rem;
   }
   
-  input:checked + input ~ input:before {
+  .carousel-container input:checked + input ~ input:before {
     display: none;
   }
   .lr-about-complete{
