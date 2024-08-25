@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Mekanika/static/css/main.464f82e7.css",
+    "main.js": "/Mekanika/static/js/main.4b48ad90.js",
+    "static/media/videoBg.mp4": "/Mekanika/static/media/videoBg.e990278f09fb777a5058.mp4",
+    "static/media/logo.png": "/Mekanika/static/media/logo.e12c34a9724cb88c6223.png",
+    "static/media/img1.jpg": "/Mekanika/static/media/img1.330a9a91f481b85da934.jpg",
+    "static/media/img2.jpeg": "/Mekanika/static/media/img2.fa0716a3227adbbd4e81.jpeg",
+    "static/media/gear.svg": "/Mekanika/static/media/gear.c658ab28dae2cc4a3a2430d5f11054b2.svg",
+    "index.html": "/Mekanika/index.html",
+    "main.464f82e7.css.map": "/Mekanika/static/css/main.464f82e7.css.map",
+    "main.4b48ad90.js.map": "/Mekanika/static/js/main.4b48ad90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.464f82e7.css",
+    "static/js/main.4b48ad90.js"
+  ]
+}
