@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './App.css';
 import gear from './gear.svg';
 import Home from './Home';
+import About from './About';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -38,6 +39,7 @@ function App() {
         </div>
       </div>
       {isLoaded && <Home text="Mechanical Engineering Association" />}
+      <About/>
     </div>
   );
 }
