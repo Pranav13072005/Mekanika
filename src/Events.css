@@ -1,0 +1,104 @@
+.events-title{
+    font-size: 7rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    padding-left: 5vw;
+    margin-bottom: 5vh;
+}
+#red1{
+    color: red !important;
+}
+.events-page{
+    background-color: black;
+    height: 120vh;
+}
+.icon1{
+    color: white;
+    width: 100px;
+}
+.icons-events{
+    width: 98vw;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 10vh;
+}
+.numbers-events{
+    margin-top: 3vh;
+    display: flex;
+    font-size: 2rem;
+    width: 98vw;
+    justify-content: space-evenly;
+    color: white;
+}
+.icons-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    row-gap: 10px;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+}
+.numbers-icons{
+    color: aqua;
+    font-size: 1.2rem;
+}
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    gap: 5rem;
+    flex-flow: column;
+    position: relative;
+  }
+  .carousel1 {
+    max-width: 100% !important;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: perspective(1200px);
+  }
+  .carousel1 .item {
+    width: 25%;
+    height: 250px;
+    max-width: 300px;
+    /* background-color: white; */
+    margin: 2px;
+    transition: 0.5s;
+    object-fit: cover;
+    filter: brightness(1);
+  }
+  .carousel1 .item:hover {
+    filter: brightness(1);
+    transform: translateZ(170px);
+  }
+  .carousel1 .item:hover + * {
+    filter: brightness(0.6);
+    transform: translateZ(120px) rotateY(25deg);
+  }
+  .carousel1 .item:hover + * + * {
+    filter: brightness(0.4);
+    transform: translateZ(50px) rotateY(15deg);
+  }
+  .carousel1 .item:has(+ *:hover) {
+    filter: brightness(0.6);
+    transform: translateZ(120px) rotateY(-25deg);
+  }
+  .carousel1 .item:has(+ * + *:hover) {
+    filter: brightness(0.4);
+    transform: translateZ(50px) rotateY(-15deg);
+  }
+.explore{
+    color: white;
+    font-size: 3rem;
+    padding-left: 5vw;
+    margin-bottom: 4vh;
+    font-family: 'Poppins';
+}
+#red2{
+    color: red;
+}

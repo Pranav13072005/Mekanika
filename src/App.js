@@ -4,6 +4,8 @@ import './App.css';
 import gear from './gear.svg';
 import Home from './Home';
 import About from './About';
+import Events from './Events';
+// import Contact from './Contact';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -40,6 +42,8 @@ function App() {
       </div>
       {isLoaded && <Home text="Mechanical Engineering Association" />}
       <About/>
+      <Events/>
+      {/* <Contact /> */}
     </div>
   );
 }
