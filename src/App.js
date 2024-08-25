@@ -1,14 +1,17 @@
 import React, { useEffect } from 'react';
+import { useState } from 'react';
 import './App.css';
 import gear from './gear.svg';
 import Home from './Home';
 
 function App() {
+  const [isLoaded, setIsLoaded] = useState(false);
   useEffect(() => {
     const loader = document.getElementById('loader');
     
     setTimeout(() => {
       loader.style.display = 'none'; // Hide the loader after 4 seconds
+      setIsLoaded(true);
     }, 4000);
   }, []);
 
@@ -34,9 +37,7 @@ function App() {
           </span>
         </div>
       </div>
-      <div>
-        <Home text="Mechanical Engineering Association"/>
-      </div>
+      {isLoaded && <Home text="Mechanical Engineering Association" />}
     </div>
   );
 }
